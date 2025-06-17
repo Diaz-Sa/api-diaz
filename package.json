@@ -4,7 +4,8 @@
   "description": "API for scraping plan data using Puppeteer on Vercel.",
   "main": "api/scrape.js",
   "scripts": {
-    "start": "vercel dev"
+    "start": "vercel dev",
+    "postinstall": "npm rebuild @sparticuz/chromium"
   },
   "dependencies": {
     "@sparticuz/chromium": "^123.0.1",
