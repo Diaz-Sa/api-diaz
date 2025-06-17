@@ -2,7 +2,7 @@
   "name": "api-planes-scraper",
   "version": "1.0.0",
   "description": "API for scraping plan data using Puppeteer on Vercel.",
-  "main": "api/scraper.js",
+  "main": "api/scrape.js",
   "scripts": {
     "start": "vercel dev"
   },
