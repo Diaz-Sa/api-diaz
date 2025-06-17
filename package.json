@@ -1,7 +1,16 @@
 {
-  "type": "module",
+  "name": "api-planes-scraper",
+  "version": "1.0.0",
+  "description": "API for scraping plan data using Puppeteer on Vercel.",
+  "main": "api/scrape.js",
+  "scripts": {
+    "start": "vercel dev"
+  },
   "dependencies": {
-    "puppeteer-core": "^21.3.8",
-    "@sparticuz/chromium": "^119.0.1"
-  }
+    "@sparticuz/chromium": "^123.0.1",
+    "puppeteer-core": "^22.6.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
